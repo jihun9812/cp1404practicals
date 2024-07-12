@@ -1,6 +1,6 @@
 """CP1404/CP5632 Practical - Client code to use the Car class."""
 
-from prac_06.car import Car
+from  prac_06.car import Car
 
 def main():
     """Demo test code to show how to use car class."""
@@ -15,4 +15,5 @@ def main():
     limo.drive(115)
     print(limo)
 
-main()
+if __name__ == "__main__":
+    main()
