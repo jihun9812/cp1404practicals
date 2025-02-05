@@ -14,6 +14,7 @@ def main():
 
     choice = input("Choose an option: ").upper()
 
+
     while choice != 'Q':
         if choice == 'G':
             score = get_valid_score()

@@ -2,6 +2,7 @@ def main():
     temperature = float(input("Enter the temperature: "))
     unit = input("Is this temperature in Celsius (C) or Fahrenheit (F)? ").upper()
 
+
     if unit == 'C':
         result = celsius_to_fahrenheit(temperature)
         original_unit = "°C"

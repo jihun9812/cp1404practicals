@@ -1,11 +1,11 @@
 import random
 
 
+
 MINIMUM_SCORE = 0
 MAXIMUM_SCORE = 100
 EXCELLENT_SCORE = 90
 PASSABLE_SCORE = 50
-
 
 
 def main():

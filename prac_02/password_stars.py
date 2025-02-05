@@ -1,6 +1,7 @@
 
 PASSWORD_LENGTH = 8
 
+
 def main():
     # Receive a password from the user and output it as '*'.
     password = get_password()
